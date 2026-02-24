@@ -27,3 +27,6 @@ urlpatterns = [
     path('accounts/', include('allauth.urls')),
     path('logout/', auth_views.LogoutView.as_view(), name='logout'),
 ]
+
+def fake_function():
+    pass
